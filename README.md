@@ -12,7 +12,9 @@ With Node.js installed, run `node serve.cjs` and open http://127.0.0.1:4173.
 
 ## Deploy on Vercel
 
-Import this repository with these settings:
+Import this repository and keep the default settings. The included `vercel.json` selects the static `dist` directory and disables the build step. Keep Root Directory at the repository root.
+
+The equivalent manual settings are:
 
 - Framework preset: Other
 - Root directory: leave at the repository root
