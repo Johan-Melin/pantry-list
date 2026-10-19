@@ -2,6 +2,8 @@
 
 A simple mobile-friendly pantry list with categories, three stock states, rearrangeable items and a single last-checked date.
 
+**Live app:** [pantry-restock.vercel.app](https://pantry-restock.vercel.app)
+
 ## Source files
 
 This is a buildless HTML/CSS/JavaScript app. The editable source is in `dist/index.html`, `dist/style.css` and `dist/app.js`.
