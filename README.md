@@ -23,6 +23,12 @@ The equivalent manual settings are:
 
 The `.openai` directory contains optional Sites hosting metadata and is not needed by Vercel.
 
+## Install on iPhone
+
+Open the deployed HTTPS site in Safari, choose Share, then Add to Home Screen and Add. The installed app opens in its own window. Open it once while online to cache the app for offline use.
+
+The service worker caches the app shell. Bump the cache version in `dist/sw.js` when changing cached files. Updates activate after existing app windows close. Run `node test-pwa.cjs` to check the offline shell and icon assets.
+
 ## Data storage
 
 Pantry data is saved in the current browser's local storage. It is not synced across devices or website addresses. Clearing browser storage removes the saved pantry.
